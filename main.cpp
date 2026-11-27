@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "./Problems/leetcode-242.hpp"
+#include "./Problems/leetcode-1.hpp"
 
 using namespace std;
 
