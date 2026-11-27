@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug C++ File",
+      "name": "Debug main.cpp",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/main.exe",

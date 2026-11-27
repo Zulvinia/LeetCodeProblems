@@ -1,9 +1,11 @@
 #include <iostream>
 #include <fstream>
+#include "./Problems/leetcode-217.hpp"
 
 using namespace std;
 
 int main(void)
 {
-    std::cout << "Hello World!" << std::endl;
+    Solution sol = Solution();
+    sol.TestCases();
 }
