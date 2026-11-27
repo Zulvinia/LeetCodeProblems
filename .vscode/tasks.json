@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build main.cpp",
+      "type": "shell",
+      "command": "D:/Programs/Coding/MSYS2/mingw64/bin/g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-std=c++20",
+        "${workspaceFolder}/main.cpp",
+        "-o",
+        "${workspaceFolder}/main.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
