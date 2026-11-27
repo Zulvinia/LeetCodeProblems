@@ -1,5 +1,5 @@
 {
-    "c-cpp-compile-run.cpp-compiler": "D:\\Programs\\Coding\\MSYS2\\mingw64\\bin\\g++.exe",
+    "c-cpp-compile-run.cpp-compiler": "g++.exe",
     "files.associations": {
         "deque": "cpp",
         "string": "cpp",

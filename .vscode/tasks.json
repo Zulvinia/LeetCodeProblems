@@ -4,7 +4,7 @@
     {
       "label": "build main.cpp",
       "type": "shell",
-      "command": "D:/Programs/Coding/MSYS2/mingw64/bin/g++.exe",
+      "command": "g++.exe",
       "args": [
         "-fdiagnostics-color=always",
         "-g",
